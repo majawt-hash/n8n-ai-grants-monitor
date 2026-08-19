@@ -12,17 +12,20 @@ graph TD
     F --> G[Structured Output Parser]
     G --> H[Generowanie Raportu HTML]
     H --> I[Gmail API: Wysyłka Powiadomienia]
-## 📌 Problem Biznesowy
+📌 Problem Biznesowy
 Ręczne śledzenie harmonogramów i wymagań dotyczących dotacji (PARP, NFOŚiGW, fundusze regionalne) jest czasochłonne i niesie ryzyko przeoczenia kluczowych terminów składania wniosków.
 
-## 🔑 Kluczowe Funkcjonalności
-* **Automatyczny Monitoring:** Przeszukiwanie oficjalnych źródeł pod kątem nowych naborów.
-* **Analiza Semantyczna AI:** Przetwarzanie wytycznych przez GPT-4o (alokacja, terminy, grupy docelowe).
-* **Raportowanie E-mail:** Wysyłka sformatowanych zestawień HTML z bezpośrednimi linkami.
+🔑 Kluczowe Funkcjonalności
+Automatyczny Monitoring: Przeszukiwanie oficjalnych źródeł pod kątem nowych naborów.
 
-## 🛠️ Architektura i Struktura Projektu
+Analiza Semantyczna AI: Przetwarzanie wytycznych przez GPT-4o (alokacja, terminy, grupy docelowe).
 
-```text
+Raportowanie E-mail: Wysyłka sformatowanych zestawień HTML z bezpośrednimi linkami.
+
+🛠️ Architektura i Struktura Projektu
+Plaintext
+
+
 n8n-ai-grants-monitor/
 ├── .env.example
 ├── .gitignore
