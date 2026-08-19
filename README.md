@@ -1,3 +1,4 @@
+```text
 n8n-ai-grants-monitor/
 ├── .env.example
 ├── .gitignore
